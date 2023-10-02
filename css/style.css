@@ -149,3 +149,38 @@ img{
     width: 50%;
   }
 }
+
+/* STRATEGIC PLANNING SECTION */
+#s-planning {
+  background-color: #9792E4;
+  padding: 2rem 0;
+  /* debug */
+  min-height: 500px;
+}
+
+.s-p-row {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.s-p-col {
+  width: 100%;
+  
+  /* debug */
+  min-height: 250px;
+  background-color: gray;
+}
+
+/* DESKTOP MEDIA: 992px */
+@media screen and (min-width:992px) {
+ .s-p-row {
+  flex-direction: row;
+ }
+
+ .s-p-col{
+
+  /* debug */
+  height: 500px;
+ }
+}
