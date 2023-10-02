@@ -287,3 +287,18 @@ img{
     width: calc(97% / 2);
   }
 }
+
+/* TRY SECTION */
+#free-trial {
+  padding: 2rem 0;
+  background-color: #9792E4;
+  /* debug */
+  min-height: 500px;
+}
+
+.content {
+  
+  /* debug */
+  min-height: 500px;
+  background-color: gray;
+}
