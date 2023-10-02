@@ -297,8 +297,21 @@ img{
 }
 
 .content {
-  
   /* debug */
   min-height: 500px;
+  background-color: gray;
+}
+
+/* FOOTER */
+footer{
+  height: 6rem;
+  padding: 1rem 0;
+  background-color: #333333;
+}
+
+.content-footer {
+
+  /* debug */
+  height: 4rem;
   background-color: gray;
 }
