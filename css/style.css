@@ -187,7 +187,7 @@ img{
 
 /* TESTIMONIALS SECTION */
 #testimonials {
-
+  padding: 3rem 0;
   /* debug */
   min-height: 500px;
 }
@@ -207,4 +207,52 @@ img{
 
 .t-col-bg{
   background-color: #9792E4;
+}
+
+/* BENEFIT SECTION */
+#benefit {
+  padding: 2rem 0;
+  background-color: #9792E4;
+
+  /* debug */
+  min-height: 500px;
+}
+
+.subtitle {
+  text-align: center;
+  font-size: 2rem;
+  color: white;
+}
+
+.b-row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 2rem 0;
+}
+
+.b-col {
+  margin-bottom: 1rem;
+  width: 100%;
+  /* debug */
+  min-height: 200px;
+  background-color: gray;
+}
+
+/* TABLET MEDIA:768px */
+@media screen and (min-width:768px) {
+  .b-row {
+    justify-content: space-between;
+  }
+  
+  .b-col {
+    width: calc(97% / 2);
+  }
+}
+
+/* DESKTOP MEDIA: 992px */
+@media screen and (min-width:992px) {
+  .b-col {
+    width: calc(97% / 3);
+  }
 }
