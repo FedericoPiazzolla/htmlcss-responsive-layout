@@ -256,3 +256,34 @@ img{
     width: calc(97% / 3);
   }
 }
+
+/* ABOUT US SECTION */
+#about-us {
+  padding: 2rem 0;
+  /* debug */
+  min-height: 500px;
+}
+
+.about-row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.about-col {
+  width: 100%;
+  margin-bottom: 1rem;
+  /* debug */
+  min-height: 400px;
+  background-color: gray;
+}
+
+/* TABLET MEDIA:768px */
+@media screen and (min-width:768px) {
+  .about-row {
+    justify-content: space-between;
+  }
+
+  .about-col{
+    width: calc(97% / 2);
+  }
+}
