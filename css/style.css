@@ -8,3 +8,80 @@
 img{
   width: 100%;
 }
+
+/* Utilities */
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+/* HEADER */
+.header {
+  height: 80px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 9999;
+  background-color: #0084FD;
+}
+
+.header a{
+  text-decoration: none;
+  color: inherit;
+}
+
+.navigation {
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+
+  /* debug */
+  width: 50%;
+  height: 70px;
+  background-color: gray;
+  border: 1px solid black;
+}
+
+.list-header {
+
+  /* debug */
+  width: 50%;
+  height: 70px;
+  background-color: gray;
+  border: 1px solid black;
+}
+
+.list-desktop {
+  width: 50%;
+  display: none;
+  list-style-type: none;
+}
+
+/* TABLET MEDIA:768px */
+@media screen and (min-width:768px) {
+  
+}
+
+/* DESKTOP MEDIA: 992px */
+@media screen and (min-width:992px) {
+  .container{
+    width: 70%;
+  }
+
+  .list-header {
+    display: none;
+  }
+
+  .list-desktop {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    /* debug */
+    background-color: gray;
+    border: 1px solid black;
+  }
+}
