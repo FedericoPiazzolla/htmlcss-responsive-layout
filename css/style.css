@@ -68,7 +68,7 @@ img{
 /* DESKTOP MEDIA: 992px */
 @media screen and (min-width:992px) {
   .container{
-    width: 70%;
+    width: 65%;
   }
 
   .list-header {
@@ -183,4 +183,28 @@ img{
   /* debug */
   height: 500px;
  }
+}
+
+/* TESTIMONIALS SECTION */
+#testimonials {
+
+  /* debug */
+  min-height: 500px;
+}
+
+.testimonials-row {
+  display: flex;
+  flex-direction: column;
+}
+
+.t-col {
+  width: 100%;
+  margin: 1rem 0;
+  /* debug */
+  min-height: 150px;
+  background-color: gray;
+}
+
+.t-col-bg{
+  background-color: #9792E4;
 }
