@@ -379,9 +379,34 @@ a {
 .b-col {
   margin-bottom: 1rem;
   width: 100%;
-  /* debug */
-  min-height: 200px;
-  background-color: gray;
+}
+
+.b-card {
+  background-color: white;
+  border-radius: 2rem;
+  color: #9792E4;
+  padding: 2rem;
+}
+
+.b-card-content h2 {
+  font-size: 5rem;
+}
+
+.b-card-content h3 {
+  padding: 2rem 0;
+}
+
+.b-card-content p {
+  color: #333333;
+  margin-bottom: 1rem;
+  font-size: .8rem;
+}
+
+.btn-benef {
+  background-color: #9792E4;
+  color: white;
+  padding: .4rem 2rem;
+  border-radius: 2rem;
 }
 
 /* TABLET MEDIA:768px */
