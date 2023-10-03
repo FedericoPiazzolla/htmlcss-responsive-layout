@@ -13,6 +13,11 @@ body {
   font-family: 'PT Sans', sans-serif;
 }
 
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
 /* Utilities */
 .container {
   width: 90%;
@@ -33,11 +38,6 @@ body {
   width: 100%;
   z-index: 9999;
   background-color: #0084FD;
-  color: white;
-}
-
-.header a{
-  text-decoration: none;
   color: white;
 }
 
