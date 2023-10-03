@@ -430,8 +430,6 @@ a {
 /* ABOUT US SECTION */
 #about-us {
   padding: 2rem 0;
-  /* debug */
-  min-height: 500px;
 }
 
 .about-row {
@@ -442,9 +440,40 @@ a {
 .about-col {
   width: 100%;
   margin-bottom: 1rem;
-  /* debug */
-  min-height: 400px;
-  background-color: gray;
+  padding: 2rem 0;
+}
+
+.about-img {
+  color: #9792E4;
+}
+
+.profile-img {
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+}
+
+.about-content h2 {
+  color: #9792E4;
+  font-size: 2.5rem;
+}
+
+.about-content p {
+  padding: 2rem 0;
+}
+
+.about-content h3 {
+  font-size: 1.5rem;
+  margin: 2rem 0;
+  color: #9792E4;
+}
+
+.btn-about {
+  background-color: #9792E4;
+  color: white;
+  border-radius: 2rem;
+  padding: .5rem 1rem;
+  display: inline-block;
 }
 
 /* TABLET MEDIA:768px */
@@ -454,7 +483,11 @@ a {
   }
 
   .about-col{
-    width: calc(97% / 2);
+    width: 30%;
+  }
+
+  .col-big {
+    width: 65%;
   }
 }
 
