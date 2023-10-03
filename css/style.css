@@ -554,14 +554,29 @@ a {
 
 /* FOOTER */
 footer{
-  height: 6rem;
+  height: 15rem;
   padding: 1rem 0;
   background-color: #333333;
+  color: white;
 }
 
 .content-footer {
+  text-align: center;
+}
 
-  /* debug */
-  height: 4rem;
-  background-color: gray;
+.content-f-top p{
+  padding: 2rem 0;
+}
+
+
+.content-f-bottom a{
+  color: #9792E4;
+  text-decoration: underline;
+}
+
+/* TABLET MEDIA:768px */
+@media screen and (min-width:768px) {
+  footer .container {
+    width: 40%;
+  }
 }
